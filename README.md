@@ -12,8 +12,9 @@
 #### 동작 화면 캡쳐 
 > 버튼을 누르면 지뢰가 생성된다. 숫자는 해당 위치를 기준으로 주변 8자리 내에 위치한 지뢰의 개수다.
 
+* 초기 화면
+![KakaoTalk_20191122_031316695](https://user-images.githubusercontent.com/57132397/69364760-3f22c780-0cd6-11ea-8fcf-1694abe2f0d8.jpg)
 
-![KakaoTalk_20191122_031316695](https://user-images.githubusercontent.com/57132397/69364760-3f22c780-0cd6-11ea-8fcf-1694abe2f0d8.jpg){: width="100" height="100"}
-![KakaoTalk_20191122_031316568](https://user-images.githubusercontent.com/57132397/69364763-40ec8b00-0cd6-11ea-80ea-042533bb27b7.jpg){: width="100" height="100"}
-![KakaoTalk_20191122_031316428](https://user-images.githubusercontent.com/57132397/69364766-42b64e80-0cd6-11ea-875f-4841e45f1e04.jpg){: width="100" height="100"}
-
+* 지뢰 생성 화면 ( 버튼을 누를 때마다 새로 생성된다. )
+![KakaoTalk_20191122_031316568](https://user-images.githubusercontent.com/57132397/69364763-40ec8b00-0cd6-11ea-80ea-042533bb27b7.jpg)
+![KakaoTalk_20191122_031316428](https://user-images.githubusercontent.com/57132397/69364766-42b64e80-0cd6-11ea-875f-4841e45f1e04.jpg)
