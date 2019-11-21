@@ -24,17 +24,17 @@ public class MainActivity extends AppCompatActivity {
     public static int totalMines = 10; // 게임에 출력될 총 지뢰 수
     public static int [][] gameBoard; // 지뢰 게임 판 구성, 행 10 * 열 10 으로 구성된 이중 배열
     public static HashMap<Integer, Integer> minePosition; // 지뢰 위치 값을 저장할 hashmap
-    public Button btn_setSudoku;
-    public TextView txt_resultSudoku;
+    public Button btn_setMine;
+    public TextView txt_resultMine;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_setSudoku = findViewById(R.id.btn_set_minesweeper);
-        txt_resultSudoku = findViewById(R.id.txt_result_minesweeper);
-        btn_setSudoku.setOnClickListener(new View.OnClickListener() {
+        btn_setMine = findViewById(R.id.btn_set_minesweeper);
+        txt_resultMine = findViewById(R.id.txt_result_minesweeper);
+        btn_setMine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 /**
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 minePosition = new HashMap();
                 mineMake();
                 setPositionNumber();
-                txt_resultSudoku.setText(showGameBoard());
+                txt_resultMine.setText(showGameBoard());
             }
         });
 
