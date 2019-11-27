@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             if(!minePosition.containsKey(randomNumber))  // containKey를 이용하여 중복 생성 방지
             {
                 minePosition.put(randomNumber, -1);
-                Collection<Integer> collection = minePosition.keySet();
+                Iterable<Integer> collection = minePosition.keySet();
                 for (Integer integer : collection) {
                     int position = Integer.parseInt(integer.toString());
                     gameBoard[position / 10][position % 10] = -1;    // 지뢰 위치 설정 => '몫의 값 = 행 값' , '나머지 값 = 열 값'
